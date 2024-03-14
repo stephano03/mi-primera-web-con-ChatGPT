@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f8b3cd; /* Color rosa */
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu-item {
+    flex-basis: 30%;
+    background-color: #c6e2ff; /* Color celeste */
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.schedule {
+    margin-top: 20px;
+}
+
+.reservation-form {
+    margin-top: 20px;
+}
+
+.location {
+    margin-top: 20px;
+    background-color: #c7f5d7; /* Color verde */
+    padding: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.social-media a:hover {
+    background-color: #f8f8f8;
+}
